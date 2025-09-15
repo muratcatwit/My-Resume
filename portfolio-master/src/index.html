@@ -2,292 +2,156 @@
 <html lang="en">
 
 <head>
-	<!-- HTML Meta Tags -->
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Nisar Hassan | Frontend Web Developer</title>
-	<meta name="description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-	<!-- Google / Search Engine Tags -->
-	<meta itemprop="name" content="Nisar Hassan | Frontend Web Developer" />
-	<meta itemprop="description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-	<meta itemprop="image" content="./meta.jpg" />
+  <!-- Put your site title here -->
+  <title>
+    Christler Murat | A Junior College Student
+  </title>
 
-	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="http://nisar.surge.sh" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Nisar Hassan | Frontend Web Developer" />
-	<meta property="og:description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-	<meta property="og:image" content="./meta.jpg" />
-
-	<!-- Twitter Meta Tags -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Nisar Hassan | Frontend Web Developer" />
-	<meta name="twitter:description" content="Hi, I am Nisar. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level." />
-	<meta name="twitter:image" content="./meta.jpg" />
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet" />
-	<script src="./js/index.js" defer></script>
+  <meta name="description" content="Add small description of yourself.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-	<!-- ***** Navigation ***** -->
 
-	<div class="navigation">
-		<input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
-		<label for="nav-toggle" class="navigation__button">
-        <span class="navigation__icon" aria-label="toggle navigation menu"
-          >&nbsp;</span
-        >
-      </label>
-		<div class="navigation__background">&nbsp;</div>
+  <!-- ***** Header ***** -->
 
-		<nav class="navigation__nav" role="navigation">
-			<ul class="navigation__list">
-				<li class="navigation__item">
-					<a href="#about" class="navigation__link">About</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#skill" class="navigation__link">Skills</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#work" class="navigation__link">Work</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#popup" class="navigation__link">Hire Me</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#footer" class="navigation__link">Contact</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Skills</a></li>
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Christler Murat</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A junior college student in Wentworth that studies computer science.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
 
-	<!-- ***** Header ***** -->
+  <main role="main">
 
-	<header class="header" role="banner" id="header">
-		<div class="header__text-box">
-			<h1 class="heading-primary">Hi! I am Nisar</h1>
-			<p class="header__description">
-				A Web Developer who creates UX rich performant websites and web
-				applications.
-			</p>
-			<a href="#popup" class="btn btn__hire" id="hire">Hire Me &nbsp;&rarr;</a>
-		</div>
-		<!-- <p class="header__director">Scroll Down &darr;</p> -->
-	</header>
+    <!-- ***** Work ***** -->
 
-	<!-- ***** Main ***** -->
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Skill Sets</h2>
+        <div class="work__boxes">
 
-	<main role="main">
-		<!-- ***** Section Intro ***** -->
+          <!-- Each div with the work__box class is a project. -->
 
-		<section class="intro">
-			<div class="row">
-				<h2 class="heading-secondary">Nice to Have You Here</h2>
-				<p class="intro-text">
-					Are You looking for a fast-performing and user-friendly website to
-					represent your product or business? perhaps you are looking for any
-					kind of consultation? or maybe you have an idea you’d like to
-					express but need a professional with vision in order to actually
-					create it? maybe you’d like to collaborate? moreover, feel free to
-					reach out to me with some advice, I’d love to hear some constructive
-					criticism about any of my projects!
-				</p>
-				<a href="https://twitter.com/nisarhassan12" class="btn">Say Hello !</a>
-			</div>
-		</section>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Java</h3>
+              <p>
+                By using Java in Eclipse, I was able to create a rock, paper, scissors game where the user goes against the AI during the game. The user can choose what they want to throw out and how many rounds they want to have. The game will display who will win at the end for each round and who wins as a whole. The game is in the link below. 
+              </p>
 
-		<!-- ***** Section Skills ***** -->
+              <div class="work__links">
+                <a href="https://github.com/muratcatwit/Final-Project.git" target="_blank" class="link__text">
+                 Java Github Site
+                </a>
 
-		<section class="skill" id="skill">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">My Skillset</h2>
-				<p class="intro-text">
-					I have a diverse set of skills from design to
-					<a target="_blank" href="https://www.w3.org/TR/2016/REC-html51-20161101/dom.html">Semantic</a>
-					and well structured HTML + reasonable and efficient CSS along with
-					<a target="_blank" href="https://sass-lang.com/">Sass</a>,
-					<a target="_blank" href="http://getbem.com/">BEM</a> and
-					<a target="_blank" href="https://gist.github.com/rveitch/84cea9650092119527bc">7 - 1 pattern</a>
-					for scss organization + JS (ES6 - ESX,
-					<a target="_blank" href="https://eslint.org/">ESLint</a> for linting
-					JS, <a href="https://babeljs.io/" target="_blank">Babel</a> for
-					transpiling)+
-					<a target="_blank" href="https://reactjs.org/">React</a> ( for
-					building complex UIs ) +
-					<a target="_blank" href="https://redux.js.org/">Redux</a> ( for
-					state management ) + module bundlers like
-					<a target="_blank" href="http://webpack.js.org/">Webpack</a> and
-					<a target="_blank" href="https://parceljs.org/">Parcel. </a>I love
-					things that are open source I use
-					<a target="_blank" href="https://code.visualstudio.com/">VS Code</a>
-					as my editor and
-					<a target="_blank" href="https://www.ubuntu.com/">Ubuntu</a> as My
-					operating system.
-				</p>
-				<a href="#work" class="btn">My Work</a>
-			</div>
-		</section>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="JavaRPS.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
 
-		<section class="about" id="about">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">About Me</h2>
-			</div>
-			<p class="intro-text">
-				I am a self-taught Frontend Web Developer from Lahore, Pakistan. About
-				three years ago is when I started my learning journey on how to make
-				the web stunning and responsive. I have always been a curious
-				individual, which is why I’d love to collaborate and do some
-				real-world projects in order to flourish my skills. I'm not perfect,
-				however. I'm very far from perfection, yet I'm resilient, assertive
-				and stubborn and I find learning a fascinating process. I am currently
-				learning about PWAs and my future plan is to learn about ML for Web
-				Performance.
-			</p>
-		</section>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Unity</h3>
+              <p>
+                While on Unity in my class, we have to do a lot of assignments, and finally, I had to work with other people for a final project based on everything we learned on Unity. The theme of this project was surviving waves of enemies. On this game, I worked on creating scenes with buttons to go to the menu (did not create the sprite option or sprites in general), how to play description, and to the game itself. Also, I worked on the lose screen when the user dies from the enemies and created a timer for how long the user last in the waves on enemies. The user can reset or go back to menu after the game is over too by clicking on the buttons that appear when the user dies in the game. To add on to this, I added an enemy spawner to make sure that enemies keep on spawning after they are destroyed by the user. Finally, I added collision on when the user hits the enemies and when the enemies hit the user. The music (actually sounds) the user hears while playing the game is actually from me too!  
+              </p>
 
-		<!-- ***** Section Craft ***** -->
+              <div class="work__links">
+                <a href="https://github.com/muratcatwit/Survive-The-Waves.git" target="_blank" class="link__text">
+                  Unity Github Site
+                </a>
+               
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="UnityFP.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
 
-		<section class="craft">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">My Craft in a Nutshell</h2>
-				<p class="intro-text">
-					I believe simplicity is undervalued and therefore strive to make things as simple as possible. I am
-					also very concerned about best practices and always sacrifice developer experience over user
-					experience.
-					I am also very concerned about best practices and always
-					sacrifice developer experience over user experience.
-				</p>
-			</div>
+    <!-- ***** About ***** -->
 
-			<div class="row">
-				<div class="craft__item">
-					<img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
-					<h3 class="heading-tertiary">Front-end</h3>
-					<p class="craft__description">
-						I value simple content structure, clean design patterns, and
-						thoughtful interactions filled with semantics and performance. I
-						tend to code things from scratch and enjoy bringing ideas to life.
-					</p>
-				</div>
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I always loved my computer science classes every since I was in high school. In addition to that, I loved playing video games a lot. As a result, I decided that I want to create or be involved in a video game company in order to understand how it feels to create video games. I thought that it may be fun too.  
+            </p>
+           
+          </div>
 
-				<div class="craft__item hack"></div>
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-				<div class="craft__item">
-					<img src="./img/browser-26.svg" alt="Server" class="craft__img" />
-					<h3 class="heading-tertiary">Back-end</h3>
-					<p class="craft__description">
-						I am a huge fan of "convention over configuration" and like things
-						that follow "don't repeat yourself" principle, therefore I do my
-						Backend in Ruby on Rails.
-					</p>
-				</div>
-			</div>
-		</section>
+  <!-- ***** Contact ***** -->
 
-		<!-- ***** Section Work ***** -->
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          This is my information to contact me. 
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:muratc@wit.edu" class="btn">muratc@wit.edu</a>
+      </div>
+    </div>
+  </section>
 
-		<section class="work" id="work">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">My Work</h2>
-				<p class="intro-text">
-					I am currently working on some Projects, which I will upload to my
-					portfolio as soon as they are done.Here are a few little demos:
-					<a href="https://nisaranimations.surge.sh/">Notifications demo</a>
-					,
-					<a href="https://totaliser.surge.sh/">A calculator</a>
-					,
-					<a href="https://trek101.surge.sh/">A fictional tour's site</a>
-					<br />(Work in Progress).
-          </p>
-					<img src="./img/609732.svg" alt="" class="work__construction" />
-					<a href="#popup" class="btn btn--hire">Hire Me &nbsp;&rarr;</a>
-			</div>
-		</section>
-	</main>
 
-	<!-- ***** Footer ***** -->
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
 
-	<footer class="footer" id="footer">
-		<nav>
-			<ul class="footer__social-links">
-				<li class="footer__social-link">
-					<a href="https://www.facebook.com/nisarhassan767">Facebook</a>
-				</li>
-				<li class="footer__social-link">
-					<a href="https://twitter.com/nisarhassan12">Twitter</a>
-				</li>
-				<li class="footer__social-link">
-					<a href="https://www.linkedin.com/in/syednisarhassan12/">Linkedin</a>
-				</li>
-				<li class="number">(+92) 3095636143</li>
-				<li>
-					<a href="mailto:syednisarhassan12@gmail.com" class="number">syednisarhassan12@gmail.com</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="footer__outro">
-			<p class="footer__info">
-				Crafted within Lahore by
-				<a href="https://twitter.com/nisarhassan12">Nisar.</a>
-			</p>
-			<p class="footer__info">&copy;2019. All rights reserved.</p>
-		</div>
-	</footer>
-
-	<!-- ***** Popup ***** -->
-
-	<div class="popup" id="popup">
-		<div class="popup__content">
-			<div class="popup__right">
-				<a href="#!" class="popup__close">&times;</a>
-				<div class="popup__top">
-					<h2 class="heading-secondary u-text-center">Curriculum Vitae</h2>
-					<p class="popup__text">Grab My CV to find out more about me.</p>
-					<div class="popup__buttons">
-						<a href="https://drive.google.com/file/d/11Yv8wqgL6MhfloKqqC2cTIPD7t-WDjyb/view?usp=sharing"
-							class="btn">Download</a>
-					</div>
-				</div>
-				<div class="popup__contact-info">
-					<nav>
-						<ul class="footer__social-links">
-							<li class="footer__social-link">
-								<a href="https://www.facebook.com/nisarhassan767">Facebook</a>
-							</li>
-							<li class="footer__social-link">
-								<a href="https://twitter.com/nisarhassan12">Twitter</a>
-							</li>
-							<li class="footer__social-link">
-								<a href="https://www.linkedin.com/in/syednisarhassan12/">Linkedin</a>
-							</li>
-							<li class="number">(+92) 3095636143</li>
-							<li>
-								<a class="number"
-									href="mailto:syednisarhassan12@gmail.com">syednisarhassan12@gmail.com</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script>
-		const navigation__checkbox = document.querySelector(
-        ".navigation__checkbox"
-      );
-      const navigation__list = document.querySelector(".navigation__list");
-      navigation__list.addEventListener('click', (e) => {
-          if (e.target !== navigation__list) {
-              navigation__checkbox.checked = false;
-          }
-      })
-	</script>
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
 
 </html>
